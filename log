@@ -1,0 +1,148 @@
+@cguoo0 ➜ /workspaces/tic-toe-game-practice (main) $ /home/codespace/.python/current/bin/python3 /workspaces/tic-toe-game-practice/cli.py
+[None, None, None]
+[None, None, None]
+[None, None, None]
+playerX > 0,1
+[None, 'X', None]
+[None, None, None]
+[None, None, None]
+playerO > 0,0
+['O', 'X', None]
+[None, None, None]
+[None, None, None]
+playerX > 1,1
+['O', 'X', None]
+[None, 'X', None]
+[None, None, None]
+playerO > 0,1
+['O', 'O', None]
+[None, 'X', None]
+[None, None, None]
+playerX > 2,1
+['O', 'O', None]
+[None, 'X', None]
+[None, 'X', None]
+playerO > 0,2
+['O', 'O', 'O']
+[None, 'X', None]
+[None, 'X', None]
+winner is X
+@cguoo0 ➜ /workspaces/tic-toe-game-practice (main) $ /home/codespace/.python/current/bin/python3 /workspaces/tic-toe-game-practice/cli.py
+[None, None, None]
+[None, None, None]
+[None, None, None]
+playerX > 0,0
+['X', None, None]
+[None, None, None]
+[None, None, None]
+playerO > 1,1
+['X', None, None]
+[None, 'O', None]
+[None, None, None]
+playerX > 0,1
+['X', 'X', None]
+[None, 'O', None]
+[None, None, None]
+playerO > 0,2
+['X', 'X', 'O']
+[None, 'O', None]
+[None, None, None]
+playerX > 2,0
+['X', 'X', 'O']
+[None, 'O', None]
+['X', None, None]
+playerO > 1,1
+['X', 'X', 'O']
+[None, 'O', None]
+['X', None, None]
+playerX > 2,1
+['X', 'X', 'O']
+[None, 'O', None]
+['X', 'X', None]
+playerO > 2,0
+['X', 'X', 'O']
+[None, 'O', None]
+['O', 'X', None]
+winner is O
+@cguoo0 ➜ /workspaces/tic-toe-game-practice (main) $ /home/codespace/.python/current/bin/python3 /workspaces/tic-toe-game-practice/cli.py
+[None, None, None]
+[None, None, None]
+[None, None, None]
+playerX > /home/codespace/.python/current/bin/python3 /workspaces/tic-toe-game-practice/test.py
+Invalid input, try again
+
+[None, None, None]
+[None, None, None]
+[None, None, None]
+playerX > /home/codespace/.python/current/bin/python3 /workspaces/tic-toe-game-practice/test.py
+Invalid input, try again
+
+[None, None, None]
+[None, None, None]
+[None, None, None]
+playerX > ^CTraceback (most recent call last):
+  File "/workspaces/tic-toe-game-practice/cli.py", line 41, in <module>
+    row, col = get_player_input(current_player)
+  File "/workspaces/tic-toe-game-practice/cli.py", line 22, in get_player_input
+    player_input = input(prompt) # this is a str 
+KeyboardInterrupt
+
+@cguoo0 ➜ /workspaces/tic-toe-game-practice (main) $ /home/codespace/.python/current/bin/python3 /workspaces/tic-toe-game-practice/cli.py
+[None, None, None]
+[None, None, None]
+[None, None, None]
+playerX > 1,2
+[None, None, None]
+[None, None, 'X']
+[None, None, None]
+playerO > 0,1
+[None, 'O', None]
+[None, None, 'X']
+[None, None, None]
+playerX > 2,2
+[None, 'O', None]
+[None, None, 'X']
+[None, None, 'X']
+playerO > 0,0
+['O', 'O', None]
+[None, None, 'X']
+[None, None, 'X']
+playerX > 2,1
+['O', 'O', None]
+[None, None, 'X']
+[None, 'X', 'X']
+playerO > 0,2
+['O', 'O', 'O']
+[None, None, 'X']
+[None, 'X', 'X']
+winner is O
+@cguoo0 ➜ /workspaces/tic-toe-game-practice (main) $ /home/codespace/.python/current/bin/python3 /workspaces/tic-toe-game-practice/cli.py
+[None, None, None]
+[None, None, None]
+[None, None, None]
+playerX > 2,2
+[None, None, None]
+[None, None, None]
+[None, None, 'X']
+playerO > 2,1
+[None, None, None]
+[None, None, None]
+[None, 'O', 'X']
+playerX > 1,0
+[None, None, None]
+['X', None, None]
+[None, 'O', 'X']
+playerO > 0,1
+[None, 'O', None]
+['X', None, None]
+[None, 'O', 'X']
+playerX > 1,2
+[None, 'O', None]
+['X', None, 'X']
+[None, 'O', 'X']
+playerO > 1,1
+[None, 'O', None]
+['X', 'O', 'X']
+[None, 'O', 'X']
+winner is O
+test
